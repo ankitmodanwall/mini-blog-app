@@ -15,7 +15,7 @@ This is a clone Blog sig=ngal page application where anyone can share their idea
 git clone** :
 - ``` https://github.com/ankitmodanwall/mini-blog-app.git```
 
-##Overlook
+## Overlook
  ![image](https://github.com/user-attachments/assets/b7567e05-1cef-4e4e-85e0-d99bb160ded7)
 
 ## Contributing
