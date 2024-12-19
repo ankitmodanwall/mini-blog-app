@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Kali✅</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-title">
+                <img src="pictures/logo.png" alt="Blog Logo" class="logo">
+                <h1 style="position: absolute; text-shadow: rgb(179, 69, 69);">Blog-Kali</h1>
+
+            </div>
+            <div id="background">
+                <div id="content">
+
+                    <nav>
+                        <button class="btn"><a href="#posts">Home</a></button>
+                        <button class="btn"><a href="#posts">Add-Post</a></button>
+                        <button class="btn"><a href="#about">About</a></button>
+                        <form id="search-form" class="search-form">
+                            <input type="text" id="search-bar" placeholder="Search...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to Blog Kali</h2>
+        <p>Discover interesting articles, share your thoughts, and explore the world of ideas.</p>
+    </section>
+
+    <!-- Posts Section -->
+    <div class="dedication">
+        <main class="posts-container" id="posts">
+            <h2 class="section-title">Latest Posts</h2>
+            <div class="posts">
+                <!-- Post Card -->
+                <article class="post">
+                    <img src="pictures/DSC_8568.JPG" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h2><strong>Miss Fresher 2k24 at IEC</strong></h2>
+                        <p>The Miss Fresher event at IEC College stands as a testament to the vibrant spirit of its
+                            students, leaving a legacy of inspiration and joy for the years ahead. 💃✨</p>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+                <!-- 2 -->
+                <article class="post">
+                    <img src="pictures/DSC_8127.JPG" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>Hod of Applied Scieince </h3>
+                        <p>Miss Raj Kamal is the pillar of the applied science, known for her dynamic
+                            leadership and unwavering dedication to academic excellence. As the Head of Department
+                            (HOD),
+                            she brings years of experience, a deep passion for engineering, and a commitment to
+                            nurturing
+                            young minds..</p>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+
+                <!-- // 3 -->
+
+                <article class="post">
+                    <img src="pictures/DSC_8135.JPG" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>Recalling those era </h3>
+                        <p>A Night to Remember: Enjoying the Fresher’s Party.</p>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+                <!-- 7 -->
+
+                <article class="post">
+                    <img src="pictures/DSC_8150.JPG" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>Mesmerizing events by various faculties </h3>
+                        <p>What makes a fresher’s party truly special is the inclusive participation of teachers. Their
+                            enthusiasm in engaging with students—be it through cheering for performances, offering words
+                            of
+                            encouragement, or even joining the dance floor—creates an environment of camaraderie. This
+                            interaction helps freshers see their teachers not just as educators, but also as
+                            approachable
+                            mentors who care about their holistic development.</p>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="pictures/DSC_8146.JPG" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>Building Bonds That Last</h3>
+                        <p>Believe in your abilities, embrace challenges with courage, and never stop learning. Every
+                            step
+                            you take here, every moment you spend, is shaping the incredible individual you are meant to
+                            become.</p>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+
+                <article class="post">
+                    <img src="pictures/DSC_8159.JPG" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>Co-ordinating by Seniors </h3>
+                        <p>The success of any fresher’s party depends on the seniors' ability to plan and coordinate.
+                            From
+                            brainstorming creative themes and coordinating with faculty to organizing performances and
+                            managing logistics, their dedication and teamwork are what bring the event to life.</p>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+                <!-- 9 -->
+
+
+                <article class="post">
+                    <img src="pictures/DSC_8233.JPG" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>"Dancing the night away with my partner-in-crime."</h3>
+                        <ul>
+                            <li>
+                                Passion </li>
+
+                            <li>Team Spirit</li>
+                            <li>Energetic</li>
+                        </ul>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+                <!-- 10 -->
+
+                <article class="post">
+                    <img src="pictures/DSC_8264.JPG" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>IECIAN performed ❣️</h3>
+
+                        <p>"We're not professional dancers, but we sure have fun!"</p>
+                        <u>
+                            <li>Image of a couple smiling after a dance performance</li>
+                            <li>Versatile</li>
+                        </u>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="pictures/gdg1.jpg" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>Google Developer Group at IEC</h3>
+                        <ul>
+                            <li>GDG IEC Community Spotlight: <p>Highlight the achievements and contributions of active
+                                    community members.</p>
+                            </li>
+                            <li>Mentorship Programs at GDG IEC: <p>Showcase the benefits of mentorship and how to find a
+                                    mentor</p>
+                            </li>
+                        </ul>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+
+                <article class="post">
+                    <img src="pictures/21 day challange .jpg" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <h3>A Glimpse into Our Hostel Life</h3>
+                        <p>Every morning, our hostel echoes with the sound of gentle footsteps, the rustle of clothes,
+                            and
+                            the soft hum of conversation. As the sun begins to peek through the curtains, our day starts
+                            with a refreshing morning routine
+                        <ul>
+                            <li>Morning Assembly</li>
+                            <li>Physical Fitness</li>
+                            <li>A Day Well-Begin</li>
+                        </ul>.</p>
+
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+
+
+
+                <article class="post">
+                    <img src="pictures/college life.jpg" alt="Post Image" class="post-image">
+                    <div class="post-content">
+                        <p>A typical day at our college is a delightful blend of academic pursuits and extracurricular
+                            activities. Here's a glimpse into our daily routine</p>
+                        <ul>
+                            <li>Morning Classes</li>
+                            <li>Library Hours</li>
+                            <li>Group Discussion </li>
+                            <li>Togetherness</li>
+                        </ul>
+                        <button class="like-btn" onclick="likePost(this)">👍 Like <span
+                                class="like-count">0</span></button>
+                    </div>
+                </article>
+
+
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <!-- Site footer -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container my-5">
+
+        <footer class="text-center text-white" style="background-color: #a0977198; border-radius: 5rem;>
+        
+    /* - Grid container --> */
+
+    <div class=" container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.facebook.com/Amodanwal230012002/" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://x.com/Ankitt_ml" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/ankitt_ml/"
+                    role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.linkedin.com/in/iankitmodanwal/" role="button" data-mdb-ripple-color="dark"><i
+                        class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/ankitmodanwall"
+                    role="button" data-mdb-ripple-color="background-color"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(103, 39, 39, 0.712); font-family: 'Times New Roman', Times, serif;
+    border-radius: 5rem; position: sticky; flex: auto; text-align: center;">
+        2024 Made by <strong>Kali Ankit</strong> 😁
+
+    </div>
+    </footer>
+
+    </div>
+    <!-- End of .container -->
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
