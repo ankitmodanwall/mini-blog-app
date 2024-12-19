@@ -15,7 +15,7 @@ This is a clone Blog sig=ngal page application where anyone can share their idea
 
 **Clone this repository:
 git clone** :
-- ``` https://github.com/yourusername/project-clone.git```
+- ``` https://github.com/ankitmodanwall/mini-blog-app.git```
 
 
  
