@@ -7,8 +7,6 @@ This is a clone Blog sig=ngal page application where anyone can share their idea
 - Backend: [Javascript]
 - Deployment: [Github]
 
-##SCRESHOTS 
-![image](https://github.com/user-attachments/assets/ee2089dc-c587-46a3-b9dc-0efe4ecfaa51)
 
 
 ## Installation✅
@@ -17,8 +15,9 @@ This is a clone Blog sig=ngal page application where anyone can share their idea
 git clone** :
 - ``` https://github.com/ankitmodanwall/mini-blog-app.git```
 
+##Overlook
+ ![image](https://github.com/user-attachments/assets/b7567e05-1cef-4e4e-85e0-d99bb160ded7)
 
- 
 ## Contributing
 
 Contributions are always welcome!
